@@ -30,6 +30,7 @@ repositories {
 
 dependencies {
     compile group: "com.google.guava", name: "guava", version: guavaVersion
+    compile group: "org.jdbi", name: "jdbi", version: jdbiVersion
 
     testCompile group: "junit", name: "junit", version: junitVersion
 }
