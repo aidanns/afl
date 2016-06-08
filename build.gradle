@@ -21,6 +21,7 @@ apply plugin: "com.palantir.git-version"
 
 sourceCompatibility = 1.8
 version gitVersion()
+group "com.aidanns"
 
 repositories {
     mavenCentral()
